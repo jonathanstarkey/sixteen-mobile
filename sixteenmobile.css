@@ -1,0 +1,1335 @@
+/*------ GENERAL ------*/
+body{
+    width: 360px;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*------ NAV BAR ------*/
+nav{
+    position:fixed;
+    z-index: 2;
+    height: 40px;
+    width: 360px;
+    
+    background-color: #acd373;
+    
+    box-shadow: 0 0 8px rgba(0,0,0,0.06);
+}
+
+.logodiv{
+    position: absolute;
+    left: 30px;
+    height: 40px;
+    width: 71px;
+}
+
+.sixteenlogo{
+    height: 40px;
+    background-position: 50% 50%;
+    
+    background-repeat: no-repeat;
+    background-image: url(images/sixteenlogo.png);
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    
+    background-color: #89a85c;
+}
+
+.buttonlines {
+    height: 40px;
+    background-position: 50% 50%;
+    
+    background-repeat: no-repeat;
+    background-image:url(images/buttonlines.png);
+}
+
+
+/*------ HEADER SECTION ------*/
+.herosection{ 
+		height: 390px;
+
+        background-image: url(images/siluet.png);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 635px 85px;
+		background-color: #9abd67;
+    
+        line-height: 407px;
+        text-align: center;
+}
+
+.herocopy{
+    display: block;
+    height: 390px;
+    line-height: 1.95em;
+    padding-top: 167px;
+    color: #f7f7f7;
+    
+    background-position: center 263px;
+    
+    background-repeat: no-repeat;
+    background-size: 25px 14px;
+    background-image:url(images/downarrow.png);
+}
+
+.herosection h1{
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.herosection h2{
+    font-family: "Droid Serif", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/*------ ABOUT SECTION MAIN ------*/
+
+.aboutsection{
+    height: 500px;
+    padding: 0 30px;
+    background-color: #f7f7f7;
+
+    text-align: left;
+}
+
+.iphoneimage{
+    height: 286px;
+
+    background-image: url(images/iphone.png);
+    background-position: center 44px;
+    background-repeat: no-repeat;
+    background-size: 80px 209px;
+    background-color: #f7f7f7;
+}
+
+.aboutsubhead{
+    height: 30px;
+    padding-top: 3px;
+    line-height: 30px;
+}
+
+.mandiv{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+
+.manimage{
+    background-image: url(images/man449.png);
+    background-position: 0 center;
+    background-size: 25px 30px;
+    background-repeat: no-repeat;
+}
+
+.aboutsection h3{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aboutsection p{
+    display: inline-block;
+    padding-top: 17px;
+    padding-bottom: 23px;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.aboutsection a{
+    display: block;
+    width: 91px;
+    height: 30px;
+    
+    border: 1px solid #acd373;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    font-family: "Droid Serif", serif;
+    color: #acd373;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+}
+
+/*------ ABOUT SECTION VIDEO ------*/
+.aboutvideo{
+    display: block;
+    height: 262px;
+    width: 360px;
+    
+    background-image: url(images/aboutvideo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 360px 262px;
+}
+
+/*------ SERVICES SECTION ------*/
+
+.services{
+    width: 360px;
+    height: 500px;
+    
+    background-color: #f7f7f7;
+}
+
+.servicesheader{
+    display: block;
+    padding-top: 43px;
+    
+    text-align: center;
+    color: #454545;
+}
+
+.servicesheader span{
+    color: #93b462;
+}
+
+
+.servicesheader p{
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.5em;
+    color: #454545;
+}
+
+.servicedivider{
+    display: block;
+    height: 7px;
+    padding-top: 14px;
+        
+    background-image: url(images/seperator.png);
+    background-size: 77px 7px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.serviceoptions{
+    display: inline-block;
+    padding-top: 26px;
+    margin: 0 40px;
+    text-align: left;
+}
+
+.servicediv{
+    padding-bottom: 37px;
+}
+
+.serviceiconbrush{
+    display: inline-block;
+    width: 36px;
+    height: 61px;
+    margin-right: 18px;
+    
+    background-repeat: no-repeat;
+    background: center center;
+    background-size: 36px 61px;
+    background-image: url(images/paintbrush12.png);
+}
+
+.serviceiconmobile{
+    display: inline-block;
+    width: 36px;
+    height: 59px;
+    margin-right: 18px;
+    
+    background-repeat: no-repeat;
+    background: center center;
+    background-size: 35px 59px;
+    background-image: url(images/mobile221.png);
+}
+
+.serviceiconmonitor{
+    display: inline-block;
+    width: 42px;
+    height: 48px;
+    margin-right: 12px;
+    
+    background-repeat: no-repeat;
+    background: center center;
+    background-size: 42px 48px;
+    background-image: url(images/monitor78.png);
+}
+
+
+.serviceoptions h4{
+    display: inline-block;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 14px;
+    font-weight: 600;
+    color: #acd373;
+}
+
+.servicegrid{
+    display: inline-block;
+    width: 220px;
+    vertical-align: top;
+}
+
+
+.serviceoptions p{
+    display: inline-block;
+    padding-top: 8px;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 13px;
+    font-weight: normal;
+    color: #454545;
+    line-height: 1.25em;
+}
+
+.serviceoptions a{
+    display: block;
+    width: 91px;
+    height: 30px;
+    margin: 0 auto;
+    
+    border: 1px solid #acd373;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    font-family: "Droid Serif", serif;
+    color: #acd373;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+}
+
+
+/*------ TEAM SECTION ------*/
+.meetteam{
+    height: 485px;
+    background-color: #acd373;
+}
+
+.teamheader{
+    display: block;
+    padding-top: 43px;
+    
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.teamheader p{
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.5em;
+}
+
+.teamdivider{
+    display: block;
+    height: 7px;
+    padding-top: 14px;
+        
+    background-image: url(images/dividerteam.png);
+    background-size: 77px 7px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.teambrowser{
+    height: 302px;
+    width: 300;
+    line-height: 312px;
+    margin: 0 auto;
+    padding-top: 5px;
+    
+    text-align: center;
+}
+
+.teambrowser ul{
+    display: inline-block;
+    position: relative;
+
+}
+
+.leftarrow {
+    display: inline-block;
+    height: 40px;
+    width: 22px;
+     
+    background-image: url(images/leftarrow.png);
+    background-size: 22px 40px;
+    background-repeat: no-repeat;
+}
+
+.whitebox{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 182px;
+    margin: 0 24px;
+    background-color:#f7f7f7;
+
+    border-radius: 5px;
+    vertical-align: middle;
+    
+    line-height: 182px;
+    text-align: center;
+}
+
+.rightarrow {
+    display: inline-block;
+    height: 40px;
+    width: 22px;
+    
+    background-image: url(images/rightarrow.png);
+    background-size: 22px 40px;
+    background-repeat: no-repeat;
+}
+
+.teammember{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    top: 33px;
+    left: 84px;
+    
+    border: 5px solid #acd373;
+    border-radius: 50px;
+    
+    background-image: url(images/teamimage.jpg);
+    background-size: 78px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.whiteboxtext{
+    display: block;
+    padding-top: 74px;
+    
+    height: 182px;
+    line-height: 1.6em;
+}
+
+.name{
+     font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 14px;
+    font-weight: 600;
+    color: #acd373
+}
+
+.title{
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #787878;
+}
+
+
+
+.greybox{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 52px;
+    border-radius: 0px 0px 5px 5px;
+    
+    background-color: #ebebeb;
+
+    
+    line-height: 52px;
+}
+
+.socialmedia{
+    position: absolute;
+    display: block;
+    height: 52px;
+    width: 200px;
+    line-height: 4.3em;
+}
+
+
+.facebook{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    padding: 0 4px;
+    
+    background-image: url(images/facebook44.png);
+    background-size: 23px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.twitter{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    padding: 0 4px;
+    
+    background-image: url(images/twitter37.png);
+    background-size: 23px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.linkedin{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    padding: 0 4px;
+    
+    background-image: url(images/linkedin21.png);
+    background-size: 23px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.meetteamfoot{
+    height: 66px;   
+    line-height: 66px;
+    
+    background-color: #9abd67;
+}
+
+.meetteamfoot > div{
+        display: block;
+        hieght: 66px;
+        width: 300px;
+        margin: 0 auto;
+}
+
+.meetteamfoot p{
+    display: inline-block;
+    height: 66px;
+    
+    text-align: left;
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 13px;
+    font-weight: normal;
+    color: #f7f7f7
+}
+
+.meetteamfoot a{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-left: 37px;
+    
+    border: 1px solid #f7f7f7;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    font-family: "Droid Serif", serif;
+    color: #f7f7f7;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+}
+
+
+/*------ OUR RECENT WORKS ------*/
+
+.recentworks{
+    display: block;
+    position: relative;
+    width: 360px;
+    height: 600px;
+    background-color: #f7f7f7;
+    
+    text-align: center;
+}
+
+.worksheader{
+    display: block;
+    padding-top: 43px;
+    
+    text-align: center;
+    color: #454545;
+}
+
+.worksheader span{
+    color: #93b462;
+}
+
+
+.worksheader p{
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.5em;
+    color: #454545;
+}
+
+.servicedivider{
+    display: block;
+    height: 7px;
+    padding-top: 14px;
+        
+    background-image: url(images/seperator.png);
+    background-size: 77px 7px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.portfolio{
+    padding-top: 3px;
+}
+
+.portfolio a{
+    display: block;
+    width: 300px;
+    height: 243px;
+    margin: 40px auto;
+    
+    background-color: #ebebeb;
+    
+    text-decoration: none;
+}
+
+.portfolioimage{
+    display: block;
+    width: 300px;
+    height: 163px;
+    
+    background-image:url(images/theme.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 299px 226px;
+}
+
+.portfolioname{
+    padding-top: 25px;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 14px;
+    font-weight: 600;
+    color: #454545;
+}
+
+.portfoliovcaption{
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #787878;
+    
+    line-height: 2em;
+}
+
+.viewbuttonparent{
+    padding-top: 5px;
+
+}
+
+.viewbutton{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    
+    border: 1px solid #acd373;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    font-family: "Droid Serif", serif;
+    color: #acd373;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.recentworksfoot{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    width: 360px;
+    height: 79px;
+    
+    line-height: 79px;
+
+    background-color: #ebebeb;
+}
+
+.recentworksfoot > div{
+    display: inline-block;
+    width: 300px;
+    padding-top: 21px;
+
+    text-align: justify;
+}
+
+.envatologo{
+    display: inline-block;
+    height: 42px;
+    width: 137px;
+    
+    background-image:url(images/studio.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 137px 42px;
+}
+
+.forestlogo{
+    display: inline-block;
+    position: absolute;
+    height: 42px;
+    width: 137px;
+    right: 30px;
+
+    background-image:url(images/themeforest.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 137px 42px;
+}
+
+
+/*------ TESTIMONIALS ------*/
+
+.testimonials{
+    display: block;
+    height: 563px;
+    
+    background-image:url(images/testimonialbkgd.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 360px 563px;
+
+    text-align: center;
+}
+
+.testimonials ul{
+    padding-top: 61px;
+}
+
+.quotebox-1{
+    position: relative;
+    width: 300px;
+    height: 85px;
+    margin-left: 30px;
+    
+    border: 1px solid #e2e2e4;
+    
+    line-height: 85px;
+}
+
+.quotebox-1 p{    
+    margin: 21px 12px;
+    
+    text-align: left;
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: #f7f7f7;
+
+    
+    line-height: 1.25em;
+}
+
+.blockquote{
+    position: absolute;
+    width: 19px;
+    height: 14px;
+    left:256px;
+    top: 57px;
+    
+    background-image:url(images/blockquotes.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 19px 14px;
+}
+
+.quotebox-1-triangle{
+    width: 0;
+    height: 0;
+    margin-left: 30px;
+    border-top: 19px solid #e2e2e4;
+    border-left: 21px solid transparent;
+}
+
+.customer{
+    margin-top: 13px;
+    margin-left: 30px;
+    width: 300px;
+    height: 82px;
+    
+    text-align: left;
+    line-height: 82px;
+}
+
+.photodiv{
+    display: inline-block;
+}
+
+.customer-info{
+    display: inline-block;
+    height: 82px;
+    margin-left: 24px;
+    vertical-align: top;
+    
+    
+    line-height: 1.5em;
+}
+
+.customer-info .name{
+    margin-top: 15px;
+}
+
+.testimonial-title{
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+
+.customer-photo img{
+        height: 82px;
+        width: 82px;
+        border-radius: 50%;
+
+        background-image: url(images/testimonial.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 84px 83px;
+}
+
+div.carousel:hover {
+  cursor: default;
+}
+
+div.carousel input[type=radio] {
+  display: none;
+}
+
+div.carousel{
+    margin-top: 23px;
+}
+
+div.carousel label {
+  display: inline-block;
+  overflow: hidden;
+  border: 1px solid #f7f7f7;
+  border-radius: 100%;
+  width: 11px;
+  height: 11px;
+}
+
+div.carousel label:hover {
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+div.carousel input:checked + label {
+  background: #f7f7f7;
+}
+
+.dot.active {
+    background-color: #f7f7f7;
+}
+
+.testimonial-main{
+    width: 300px;
+    margin: 64px auto;
+    text-align: left;
+    color: #f7f7f7;
+}
+
+.testimonial-main h3{
+    padding-bottom: 18px;
+
+}
+
+.testimonial-main p{
+    padding-bottom: 24px;
+    
+    text-align: left;
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 13px;
+    font-weight: 200;
+}
+
+
+.testimonialbutton{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+    
+    border: 1px solid #acd373;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    font-family: "Droid Serif", serif;
+    color: #acd373;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+}
+
+
+/*------ BLOG ------*/
+
+.blog-section{
+    display: block;
+    position: relative;
+    width: 360px;
+    height: 676px;
+    background-color: #f7f7f7;
+    
+    text-align: center;
+}
+
+.blog-browser{
+    width: 360px;
+    height: 414px;
+    margin: 0 auto;
+    padding-top: 21px;
+}
+
+.blog-browser ul{
+    display: inline-block;
+}
+
+.blog-bkgd{
+    display: block;
+    position: relative;
+    width: 160px;
+    height: 200px;
+    background-color: #ebebeb;
+    
+    line-height: 200px;
+    text-align: center;
+}
+
+.blog-box{
+    position:relative;
+    display: inline-block;
+    padding: 7px 5px;
+}
+
+.blog-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 91px;
+
+}
+
+.blog-1-icon{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    top:76px;
+    left:61px;
+    background-color: #acd373;
+    
+    border: 5px solid #ebebeb;
+    border-radius: 50%;
+    
+    background-image: url(images/blogicon1.png);
+    background-size: 21px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.blog-2-icon{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    top:76px;
+    left:61px;
+    background-color: #acd373;
+    
+    border: 5px solid #ebebeb;
+    border-radius: 50%;
+    
+    background-image: url(images/blogicon2.png);
+    background-size: 12px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.blog-3-icon{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    top:76px;
+    left:61px;
+    background-color: #acd373;
+    
+    border: 5px solid #ebebeb;
+    border-radius: 50%;
+    
+    background-image: url(images/blogicon3.png);
+    background-size: 18px 18px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.blog-4-icon{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    top:76px;
+    left:61px;
+    background-color: #acd373;
+    
+    border: 5px solid #ebebeb;
+    border-radius: 50%;
+    
+    background-image: url(images/blogicon4.png);
+    background-size: 18px 16px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.blogtitle-parent{
+    display: inline-block;
+    height: 69px;
+    padding-top: 100px;
+    line-height: 69px;
+    vertical-align: middle;
+}
+
+.blog-title-1{
+    display: block;
+    height: 69px;
+    margin: 8px 5px;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 11px;
+    font-weight: 600;
+    color: #454545;
+    text-decoration: none;
+    line-height: 1.25em;
+}
+
+.blog-title-2{
+    display: block;
+    height: 69px;
+    margin: 2px 5px;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 11px;
+    font-weight: 600;
+    color: #454545;
+    text-decoration: none;
+    line-height: 1.25em;
+
+}
+
+
+
+.read-more-box{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 160px;
+    height: 30px;
+    background-color: #acd373;
+    
+    font-family: "Droid Serif", serif;
+    font-size: 9px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 3.5em;
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.blogfoot{
+    position: absolute;
+    display: block;
+    width: 360px;
+    height: 62px;
+    bottom: 0;  
+    
+    background-color: #acd373;
+    
+    
+    text-align: left;
+    
+    line-height: 62px;
+}
+
+
+
+.blogfoot p{
+    display: inline-block;
+    height: 62px;
+    margin-left: 10px;
+    text-align: left;
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 12px;
+    font-weight: normal;
+    color: #f7f7f7;
+}
+
+.blog-email{
+    display: inline-block;
+    width: 111px;
+    height: 30px;
+    margin-left: 8px;
+    border: 1px solid #f7f7f7;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Droid Serif", serif;
+    color: #f7f7f7;
+    font-size: .18em;
+    font-weight: 400;
+    font-style: italic;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.blogfoot-box{
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    vertical-align: middle;
+    
+    background-image: url(images/blogemail.png);
+    background-size: 17px 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/*------ CONTACT SECTION ------*/
+
+.contact-section {
+    height: 579px;
+    background-color: #acd373;
+}
+
+.map {
+    display: block;
+    position: relative;
+    height:129px;
+
+    background-image: url(images/map.jpg);
+    background-size: 360px 129px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    text-decoration: none;
+    line-height: 129px;    
+}
+
+.map span{
+    display: block;
+    margin: 0 auto;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 13px;
+    font-weight: normal;
+    color: #f7f7f7;
+}
+
+.contact-header{
+    display: block;
+    padding-top: 43px;
+    
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.contact-section form{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact-section label:nth-child(1){
+    display: block;
+    margin-top: 26px;  
+}
+
+.contact-section label:nth-child(2){
+    display: block;
+    margin-top: 20px;  
+}
+
+.contact-section label:nth-child(3){
+    display: block;
+    margin-top: 20px;  
+}
+
+.contact-section label:nth-child(4){
+    display: block;
+    margin-top: 27px;  
+}
+
+.form-name,.form-email{
+    width: 300px;
+    height: 28px;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: #9abd67;
+    border: none;
+    outline: none;
+    
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+}
+
+input::-webkit-input-placeholder{
+    verticle-align: center;
+    
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+	}
+	
+input::-moz-placeholder {
+    
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+}
+
+.contact-section textarea{
+    width: 298px;
+    height: 84px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+    background-color: #9abd67;
+    border: none;
+    outline: none;
+    
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+}
+
+textarea::-webkit-input-placeholder  {
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+	}
+	
+textarea::-moz-placeholder {    
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+}
+
+.contact-section span{
+    display: block;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 14px;
+    font-weight: normal;
+    color: #f7f7f7;
+}
+
+.send-button{
+    display: block;
+    width: 220px;
+    height: 28px;
+    margin: 0 auto;
+    background-color: #9abd67;
+    border: none;
+    outline: none;
+    
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7f7f7;
+}
+
+
+/*------ FOOTER SECTION ------*/
+
+.footer{
+    display: block;
+    height: 100px;
+    background-color: #9abd67;
+    
+    text-align: center;
+}
+
+.footer a{
+    display: block;
+    padding-top: 30px;
+}
+
+.footer span{
+    display: block;
+    margin-top: 5px;
+    
+    font-family: "source sans pro", "roboto", "Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 14px;
+    font-weight: normal;
+    color: #f7f7f7;
+}
+
+
+
+
+
+
+
+
+
